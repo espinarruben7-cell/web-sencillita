@@ -1,11 +1,80 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Acerca de Nosotros</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <H2>PAGINA PARA MAYOR INFORMACION</H2>
-</body>
-</html>
+
+<body></body>
+<div id="site-content">
+
+    <header>
+        <h1>Bienvenidos a la Página Web Sencilla</h1>
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="AcercaDe.html">Acerca de</a></li>
+                <li><a href="Contacto.html">Contacto</a></li>
+                <li><a id="login-link" href="login.html">Iniciar sesión</a></li>
+            </ul>
+        </nav>
+
+        <p id="user-greeting" class="user-greeting" hidden>
+            Hola, <strong id="logged-user"></strong>
+        </p>
+    </header>
+
+    <main>
+
+        <section id="about">
+            <h2>Acerca de nosotros</h2>
+
+            <p>
+                Bienvenido a nuestra página web. Este proyecto ha sido creado
+                para practicar el desarrollo de páginas web y el trabajo
+                colaborativo mediante GitHub.
+            </p>
+
+            <p>
+                En esta página podrás encontrar información sobre nuestro
+                proyecto, conocer sus diferentes secciones y ponerte en
+                contacto con nosotros.
+            </p>
+        </section>
+
+        <section id="about-project">
+            <h2>Sobre el proyecto</h2>
+
+            <p>
+                Esta página web forma parte de un proyecto de aprendizaje
+                en el que trabajamos con HTML, CSS, JavaScript y GitHub.
+            </p>
+
+            <p>
+                Nuestro objetivo es mejorar progresivamente el diseño y
+                las funcionalidades de la página mediante el trabajo
+                colaborativo y el uso de ramas y Pull Requests.
+            </p>
+        </section>
+
+        <section id="information">
+            <h2>¿Qué puedes encontrar aquí?</h2>
+
+            <ul>
+                <li>Información sobre nuestro proyecto.</li>
+                <li>Un buscador para practicar funcionalidades web.</li>
+                <li>Una página de contacto.</li>
+                <li>Un sistema de inicio y cierre de sesión.</li>
+                <li>Enlaces a nuestras redes sociales.</li>
+            </ul>
+        </section>
+
+    </main>
+
+</div>
+
+<script src="script.js"></script>
